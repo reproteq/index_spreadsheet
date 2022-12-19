@@ -90,35 +90,3 @@ function sheetNamesIds(sheets) {
   return [indexSheetNames, indexSheetIds];
   
 }
-
-
-
-/*
-function GetDtcFX(){
-    var sh = SpreadsheetApp.getActiveSheet();
-    var maxRows = sh.getMaxRows();
-    var lastRow = sh.getLastRow();
-    sh.getRange("X1").setFormula("=unique(W1:W)");
-  
-}
-*/
- /*
-
-//unction onOpen(e) {
-  // Add a custom menu to the spreadsheet.
-  SpreadsheetApp.getUi()
-      .createMenu('Ols')
-      .addItem('GetDtc', 'GetDtcFX')
-      .addToUi();
-}
-
-function onOpen() {
-  
-  var ui = SpreadsheetApp.getUi();
-
-  ui.createMenu('Index Menu')
-      .addItem('Create Index', 'createIndex')
-      .addItem('Update Index', 'updateIndex')
-      .addToUi();
-}
-*/
